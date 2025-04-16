@@ -1,0 +1,143 @@
+.task-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.meta-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.task-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #999;
+  margin-bottom: 12px;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  color: #000000;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.form-group label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-group select,
+.form-group input[type="date"] {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: white;
+}
+
+/* Add this to match new tag appearance */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  font-size: 13px;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-weight: 500;
+  background-color: #eee;
+  color: #333;
+  gap: 6px;
+}
+
+.tag.cyan {
+  background-color: #ccf2f2;
+  color: #008b8b;
+}
+
+.tag.gray {
+  background-color: #e0e0e0;
+  color: #333;
+}
+.task-heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.task-title {
+  font-size: 15px;
+  font-weight: 400;
+  color: #999;
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 6px 0 6px 0;
+}
+
+.section-label {
+  font-size: 14px;
+  color: #999;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.task-detail {
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.desc-box {
+  width: 100%;
+  height: 100px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: #ff4b4b;
+  color: white;
+}
+
+.save {
+  background-color: #4caf50;
+  color: white;
+}
+
+.subtask-add {
+  margin-top: 10px;
+  cursor: pointer;
+  color: #007bff;
+}
